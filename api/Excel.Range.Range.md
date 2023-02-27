@@ -68,7 +68,7 @@ This example sets the font style in cells B2:D6 on Sheet1 of the active workbook
 
 ```vb
 With Worksheets("Sheet1").Range("B2:Z22")
-   .Range(.Cells(1, 1), .Cells(5, 3)).Font.Italic = True 
+   .Range(Cells(1, 1), Cells(5, 3)).Font.Italic = True 
 End With
 ```
 
